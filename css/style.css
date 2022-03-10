@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('/imagens/1.jpg') no-repeat center/cover;
+}
+
+header .header-main{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+}
+
+header .header-main #img-header-roxo{
+    display: none;
+}
+
+.header-main .img-header{
+    margin: 20px 40px 20px 40px;
+}
+
+.header-main .quero-ser-nubank{
+    margin: 10px 40px 10px 40px;
+    background: rgb(130, 10, 209);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.quero-ser-nubank a{
+    color: white;
+    padding: 15px;
+}
+
