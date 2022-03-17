@@ -36,6 +36,7 @@ header .header-main #img-header-roxo {
 
 .header-main {
     padding: 20px 33px;
+    max-width: 1400px;
 }
 
 .header-main .quero-ser-nubank {
@@ -65,6 +66,7 @@ header .header-main #img-header-roxo {
     height: 100%;
     display: flex;
     align-items: center;
+    max-width: 1500px;
 }
 
 .info .info-text {
@@ -220,6 +222,7 @@ header .header-main #img-header-roxo {
     height: 100%;
     display: flex;
     /* padding: 50px 0; */
+    max-width: 1400px;
 }
 
 .payment-form .payments ul {
