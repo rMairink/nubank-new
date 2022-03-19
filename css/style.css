@@ -28,6 +28,11 @@ header .header-main {
     margin-top: 20px;
 }
 
+.img-header {
+    width: 45px;
+    height: 25px;
+}
+
 
 
 header .header-main #img-header-roxo {
@@ -266,11 +271,11 @@ header .header-main #img-header-roxo {
     color: #820ad1;
 }
 
-.payment-form .payments ul li a:hover{
+.payment-form .payments ul li a:hover {
     border-bottom: 3px solid #820ad1;
     transition: 2s ease-in 3s
 }
 
-.payments ul li img{
+.payments ul li img {
     width: 450px;
 }
